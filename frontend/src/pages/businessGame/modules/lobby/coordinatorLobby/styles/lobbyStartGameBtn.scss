@@ -1,0 +1,10 @@
+@import "../../../sass_library/library.scss";
+
+.start_game__btn {
+  @extend %button_purple;
+  background: rgba(66, 74, 157, .6);
+  border-radius: 100px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}

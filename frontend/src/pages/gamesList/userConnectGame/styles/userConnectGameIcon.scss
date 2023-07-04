@@ -1,0 +1,29 @@
+@import "../../../../sass_library/library.scss";
+
+.user_connect_game_icon {
+  @extend %align_center;
+  flex-direction: column;
+
+  &__cube {
+    background-image: url("../../../../static/img/connect_game/cube_icon.svg");
+    width: 86px;
+    height: 96px;
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    @extend %text_decoration;
+    opacity: 0.7;
+    text-align: center;
+    width: 375px;
+    margin-bottom: 80px;
+  }
+
+  &__btn {
+    @extend %button_white;
+    font-size: 25px;
+    border-radius: 100px;
+    width: 397px;
+    height: 73px;
+  }
+}

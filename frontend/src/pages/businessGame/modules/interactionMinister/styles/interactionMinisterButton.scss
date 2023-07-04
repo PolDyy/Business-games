@@ -1,0 +1,16 @@
+@import "../../../../../sass_library/library.scss";
+
+.interaction_minister_btn {
+  border-radius: $border_radius;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(107, 83, 255, .6);
+  width: 353px;
+  height: 60px;
+  background: rgba(107, 83, 255, 0.1);
+
+  &:hover {
+    color: #FFFFFF;
+    background: #424A9D;
+  }
+}

@@ -1,0 +1,24 @@
+@import "../../../../../sass_library/library.scss";
+
+.president_form {
+  @extend %role_form;
+  padding: 30px 0 30px;
+
+  &__treasury {
+    @extend %space_between;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 99px;
+
+    &_item {
+      font-weight: 700;
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.8);
+    }
+  }
+
+  &__btn {
+    width: 290px;
+    height: 60px;
+  }
+}

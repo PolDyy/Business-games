@@ -1,0 +1,12 @@
+@import "../../../../../sass_library/library.scss";
+
+.bank_account {
+  width: 300px;
+  @extend %space_between;
+  margin-bottom: 40px;
+  &__item {
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+}

@@ -1,0 +1,27 @@
+.player_burger_container {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.join_container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.join_container__btn {
+  display: flex;
+  justify-content: center;
+  height: 68px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.join_container__input {
+  width: 100%;
+  margin-bottom: 20px;
+}

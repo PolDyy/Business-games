@@ -1,0 +1,81 @@
+@import "../../../../../../sass_library/library.scss";
+
+.lobby {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 120px);
+  padding: 90px 10% 30px;
+
+  @media (max-width: 1220px) {
+    padding: 3% 7%;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    @media (max-width: 1000px) {
+      display: initial;
+      justify-content: initial;
+      margin-bottom: 80px;
+    }
+
+    &_code {
+      width: 650px;
+      @media (max-width: 1220px) {
+        width: 550px;
+      }
+    }
+
+    &_start_game {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      width: 265px;
+
+      @media (max-width: 1000px) {
+        align-items: initial;
+        margin: 0 auto 80px;
+      }
+
+      @media (max-width: 350px) {
+        width: 200px;
+      }
+    }
+  }
+
+  &__btn {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 auto;
+    width: 369px;
+    height: 68px;
+
+    @media (max-width: 500px) {
+      width: 300px;
+      height: 60px;
+    }
+
+    @media (max-width: 400px) {
+      width: 220px;
+      height: 60px;
+    }
+  }
+
+  &__btn_invite {
+    margin: 0 auto;
+    width: 369px;
+    height: 68px;
+
+    @media (max-width: 500px) {
+      width: 300px;
+      height: 60px;
+    }
+
+    @media (max-width: 400px) {
+      width: 220px;
+      height: 60px;
+    }
+  }
+
+}

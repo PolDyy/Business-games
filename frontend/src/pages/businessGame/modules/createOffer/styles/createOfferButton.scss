@@ -1,0 +1,9 @@
+@import "../../../../../sass_library/library.scss";
+
+.create_offer_btn{
+  @extend %button_purple;
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+}

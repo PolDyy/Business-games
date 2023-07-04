@@ -1,0 +1,33 @@
+@import "../../../../../../sass_library/library.scss";
+
+.start_game {
+  width: 100%;
+
+  &__title {
+    @extend %justify_center;
+    @extend %text_decoration;
+    color: rgba(2, 199, 105, 1);
+    margin-bottom: 15px;
+    text-align: center;
+
+    @media (max-width: 350px) {
+      font-size: 16px;
+    }
+  }
+
+  &__container {
+    @extend %space_between;
+    background: rgba(107, 83, 255, 0.05);
+    width: calc(100% - 30px*2);
+    border-radius: $border_radius;
+    padding: 16px 30px;
+    &_datetime {
+      @extend %text_decoration;
+      color: rgba(0, 0, 0, 0.8);
+
+      @media (max-width: 350px) {
+        font-size: 16px;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../../../../../sass_library/library.scss";
+
+.user_lobby {
+  padding: 3% 10%;
+  @media (max-width: 480px) {
+    padding: 3% 5%;
+  }
+  &__start_game {
+    width: 360px;
+    margin: 0 auto 150px;
+    @media (max-width: 480px) {
+      width: 250px;
+    }
+  }
+  &__lobby_message_container {
+    margin: 0 auto;
+
+  }
+}

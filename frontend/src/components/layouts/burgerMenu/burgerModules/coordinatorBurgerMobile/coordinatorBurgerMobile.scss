@@ -1,0 +1,67 @@
+.burger_container_mobile {
+  overflow: auto;
+  width: 90%;
+  height: 60%;
+  background: #FFFFFF;
+  position: absolute;
+  bottom: 0;
+  padding: 5% 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.close_burger_menu {
+  background-image: url("../../../../../static/img/profile/close_popup.svg");
+  width: 74px;
+  height: 8px;
+  background-repeat: no-repeat;
+  margin: 0 auto 40px;
+  display: flex;
+
+  &:hover {
+    background-image: url("../../../../../static/img/modal/close_invite_active.svg");
+  }
+}
+
+.button_create_game_mobile_container {
+  height: 68px;
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.button_logout_mobile_container {
+  padding-left: 5%;
+  margin-bottom: 30px;
+}
+
+.join_mobile_container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto 30px;
+}
+
+.join_mobile_container__input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.join_mobile_container__btn {
+  width: 100%;
+  height: 68px;
+}
+
+@media (max-width: 450px) {
+  .button_create_game_mobile_container {
+    height: 65px;
+  }
+}
+
+@media (max-width: 320px) {
+  .button_create_game_mobile_container {
+    width: 80%;
+  }
+}

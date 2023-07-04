@@ -1,0 +1,30 @@
+@import "../../../../../sass_library/library";
+
+.status_game {
+  &__status {
+    @extend %text_decoration;
+    font-size: 18px;
+    color: rgba(2, 199, 105, 1);
+    margin-bottom: 15px;
+  }
+
+  &__year {
+    display: flex;
+    align-items: baseline;
+
+    &_item {
+      @extend %text_decoration;
+      font-size: 18px;
+      margin-right: 40px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    &_value {
+      @extend %text_decoration;
+      padding: 7px 30px;
+      background: rgba(107, 83, 255, 0.05);
+      border-radius: $border_radius;
+      color: rgba(0, 0, 0, 0.8);
+    }
+  }
+}

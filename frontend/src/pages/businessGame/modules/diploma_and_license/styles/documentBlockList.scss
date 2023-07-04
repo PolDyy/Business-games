@@ -1,0 +1,9 @@
+@import "../../../../../sass_library/library.scss";
+
+
+.document_block_list {
+  @extend %space_between;
+  flex-direction: row;
+  padding: 30px;
+  flex-wrap: wrap;
+}

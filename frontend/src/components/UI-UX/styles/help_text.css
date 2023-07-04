@@ -1,0 +1,35 @@
+.help_text_container {
+  display: flex;
+  color: #FFFFFF;
+  flex-direction: row;
+}
+
+.help_text__container {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.help_text_container_message {
+  margin-right: 5px;
+}
+
+.login_page__forgot_password-margin {
+  /*margin-bottom: 50px;*/
+}
+
+.help_text__container_underline {
+  color: #FFFFFF;
+  cursor: pointer;
+  text-decoration-line: underline;
+}
+
+.login_page__forgot_password-space {
+  color: #FFFFFF;
+}
+
+@media (min-height: 1000px) {
+  .help_text_container {
+    font-size: 25px;
+  }
+}

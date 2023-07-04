@@ -1,0 +1,36 @@
+[
+  {
+    "model": "users.coordinator",
+    "pk": 1,
+    "fields": {
+      "first_name": "",
+      "last_name": "",
+      "patronymic": "",
+      "phone_number": "",
+      "birthday": null,
+      "invite_code": null,
+      "attributes": []
+    }
+  },
+  {
+    "model": "users.userrole",
+    "pk": 1,
+    "fields": {
+      "name": "Admin"
+    }
+  },
+  {
+    "model": "users.userrole",
+    "pk": 2,
+    "fields": {
+      "name": "Coordinator"
+    }
+  },
+  {
+    "model": "users.userrole",
+    "pk": 3,
+    "fields": {
+      "name": "Player"
+    }
+  }
+]

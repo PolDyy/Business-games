@@ -1,0 +1,19 @@
+@import "../../../../sass_library/library.scss";
+
+.table_col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.8);
+  word-break: break-all;
+  @extend %text_container;
+  &__date {
+    @extend %text_decoration;
+    @extend %text_container;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+    word-break: break-all;
+  }
+}

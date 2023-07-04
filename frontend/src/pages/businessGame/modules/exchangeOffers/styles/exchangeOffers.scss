@@ -1,0 +1,10 @@
+@import "../../../../../sass_library/library.scss";
+
+.exchange_offers_container {
+  @extend %business_game_container;
+  margin-bottom: 60px;
+
+  &__content {
+    width: 90%;
+  }
+}

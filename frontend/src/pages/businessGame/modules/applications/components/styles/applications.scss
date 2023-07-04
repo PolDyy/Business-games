@@ -1,0 +1,21 @@
+@import "../../../../../../sass_library/library.scss";
+
+.applications_container {
+  @extend %business_game_container;
+  margin-bottom: 40px;
+
+  .applications_container_body {
+    width: 90%;
+
+    .applications_content {
+      @extend %business_game_container;
+      width: 100%;
+      height: 119px;
+    }
+
+    .application_hint {
+      @extend %text_decoration;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}

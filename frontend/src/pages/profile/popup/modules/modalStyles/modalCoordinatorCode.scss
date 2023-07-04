@@ -1,0 +1,25 @@
+@import "../../../../../sass_library/library.scss";
+
+.modal_coordinator_code_field {
+  @extend %between_row;
+  @extend %text_decoration;
+  align-items: center;
+  border: 1px solid #424A9D;;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  padding: 0 30px;
+  height: 55px;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+}
+
+.modal_coordinator_buttons_container {
+
+}
+
+@media (max-width: 380px) {
+  .modal_coordinator_code_field {
+    font-size: 15px;
+  }
+}

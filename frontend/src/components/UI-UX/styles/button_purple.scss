@@ -1,0 +1,11 @@
+@import "../../../sass_library/library.scss";
+
+.btn_purple {
+  @extend %button_purple;
+  border-radius: 100px;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  text-align: center;
+
+}

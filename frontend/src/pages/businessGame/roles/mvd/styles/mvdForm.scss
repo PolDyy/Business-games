@@ -1,0 +1,10 @@
+@import "../../../../../sass_library/library.scss";
+
+.mvd_form {
+  @extend %role_form;
+  &__btn {
+    margin-top: 110px;
+    width: 290px;
+    height: 60px;
+  }
+}

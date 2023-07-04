@@ -1,0 +1,50 @@
+@import "../../../../../sass_library/library.scss";
+
+.create_offer_deal {
+  @extend %space_between;
+  padding: 30px 30px;
+  margin-bottom: 40px;
+
+  &__left {
+    @extend %space_between;
+    flex-wrap: wrap;
+    width: 70%;
+
+
+
+    &_big_size {
+      width: 333px;
+      height: 47px;
+      margin-bottom: 30px;
+
+      &:nth-child(3n) {
+        margin-bottom: 0;
+      }
+
+      &:nth-child(4n) {
+        margin-bottom: 0;
+      }
+
+      &_option {
+        width: 393px;
+      }
+    }
+
+
+    &_middle_size {
+      height: 47px;
+      width: 212px;
+    }
+  }
+
+  &__right {
+    margin-top: 7px;
+    @extend %space_between;
+    @extend %flex_column;
+
+    &_btn {
+      height: 42px;
+      width: 244px;
+    }
+  }
+}

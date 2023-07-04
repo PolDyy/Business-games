@@ -1,0 +1,52 @@
+@import "../../../../../sass_library/library.scss";
+
+.player_role {
+  @extend %business_game_container;
+
+  &__body {
+    @extend %space_between;
+    width: 90%;
+    margin-bottom: 40px;
+
+    &_info {
+      width: 45%;
+    }
+  }
+
+  &__container {
+    @extend %between_row;
+    width: 90%;
+    margin-bottom: 60px;
+
+    &_add_info {
+      @extend %between_column;
+      width: 45%;
+      height: 683px;
+    }
+
+    &_form {
+      width: 45%;
+    }
+  }
+
+  &__offer {
+    width: 90%;
+  }
+
+  &__content {
+    width: 90%;
+    &_bank {
+      margin-bottom: 40px;
+    }
+    &__salary {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      &__button {
+        margin-left: 50px;
+        width: 300px;
+        height: 40px;
+      }
+    }
+  }
+}

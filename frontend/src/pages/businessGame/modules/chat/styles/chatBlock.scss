@@ -1,0 +1,62 @@
+@import "../../../../../sass_library/library.scss";
+
+.chat_block {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 50px);
+  height: calc(100% - 20px);
+  background: rgba(66, 74, 157, 0.05);
+  border-radius: $border_radius;
+  padding: 10px 20px 10px 30px;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.8);
+
+  &__active {
+    background: rgba(66, 74, 157, 1);
+    color: #FFFFFF !important;
+  }
+
+
+
+  &__body {
+    &_title {
+      @extend %text_decoration;
+      @extend %text_container;
+      font-size: 16px;
+      max-width: 240px;
+      margin-bottom: 10px;
+
+    }
+
+    &_message {
+      display: flex;
+
+      &_last_ms {
+        @extend %text_decoration;
+        @extend %text_container;
+        font-size: 16px;
+        max-width: 240px;
+        margin-right: 20px;
+
+      }
+
+      &_time {
+        margin-right: 0;
+      }
+    }
+
+  }
+  &__count_ms {
+    display: flex;
+    align-items: center;
+    &_container {
+      @extend %text_decoration;
+      @extend %business_game_container;
+      border-radius: $border_radius;
+      width: 24px;
+      height: 24px;
+      background: rgba(66, 74, 157, 1);
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+}

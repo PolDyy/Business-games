@@ -1,0 +1,12 @@
+.offer_button_container__btn_offer_close {
+  width: 400px;
+
+  @media (max-width: 1440px) {
+    width: 300px;
+  }
+}
+
+.offer_button_container__btn_offer_close:hover {
+  color: rgba(107, 83, 255, .5);
+  border: 1px solid rgba(107, 83, 255, .5);
+}

@@ -1,0 +1,35 @@
+@import "../../../../../../sass_library/library.scss";
+
+.additional_info_container {
+  @extend %business_game_container;
+  text-align: center;
+  padding: 30px 20px;
+  width: calc(100% - 20px*2);
+
+  .additional_info_title {
+    @extend %text_decoration;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+  }
+
+  .additional_info_descr {
+    @extend %text_decoration;
+    height: 125px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .link_reset {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  .more_info {
+    @extend %text_decoration;
+    text-decoration: underline;
+    color: rgba(107, 83, 255, 1);
+  }
+}

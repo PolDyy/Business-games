@@ -1,0 +1,28 @@
+@import "../../../../../sass_library/library";
+
+.incoming_message {
+  max-width: 450px;
+  &__name {
+    max-width: 240px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    vertical-align: top;
+    color: rgba(66, 74, 157, 1);
+    margin-bottom: 10px;
+  }
+
+  &__container {
+    @extend %chat_message_container;
+
+    &_message {
+      @extend %chat_message_text;
+      margin-right: 20px;
+    }
+
+    &_time {
+      @extend %chat_message_time;
+    }
+  }
+}

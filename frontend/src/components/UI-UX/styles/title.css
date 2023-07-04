@@ -1,0 +1,13 @@
+@import "../../../sass_library/_library.scss";
+
+.bs_title {
+  color: #FFFFFF;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 320px) {
+  .bs_title {
+    font-size: 30px;
+  }
+}

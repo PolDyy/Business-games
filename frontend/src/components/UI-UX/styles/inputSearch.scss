@@ -1,0 +1,65 @@
+@import "../../../sass_library/library.scss";
+
+.search_form {
+  width: calc(100% - 60px);
+  padding: 5px 30px;
+  display: inline-flex;
+  height: 50px;
+  justify-content: space-between;
+  overflow: hidden;
+  background: rgba(107, 83, 255, 0.05);
+  border-radius: 20px;
+  flex-direction: row-reverse;
+  margin-bottom: 40px;
+  @media (max-width: 500px) {
+    padding: 5px 10px;
+    width: calc(100% - 20px);
+  }
+
+}
+
+.input_search {
+  @extend %text_decoration;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: rgba(107, 83, 255, 0);
+  color: rgba(66, 74, 157, 1);
+  @media (max-width: 500px) {
+    font-size: 18px;
+    width: 100%;
+  }
+}
+
+.search_form_btn {
+  border: none;
+  padding-left: 10px;
+}
+
+.search_form_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+  margin-left: 10px;
+  @media (max-width: 500px) {
+    width: 15px;
+    height: 15px;
+    padding-right: 10px;
+  }
+}
+
+.input_search::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  text-align: end;
+}
+
+.input_search[type="search"]::-webkit-search-decoration,
+.input_search[type="search"]::-webkit-search-cancel-button,
+.input_search[type="search"]::-webkit-search-results-button,
+.input_search[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}

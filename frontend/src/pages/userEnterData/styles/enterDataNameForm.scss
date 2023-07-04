@@ -1,0 +1,13 @@
+@import "../../../sass_library/library.scss";
+
+.enter_data_name_form {
+  @extend %space_between;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 540px) {
+  .enter_data_name_form {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,16 @@
+@import "../../../sass_library/library.scss";
+
+.settings_attribute_container {
+  @extend %justify_center;
+  flex-wrap: wrap;
+  padding: 4% 15%;
+
+  @media (max-width: 1250px) {
+    padding: 4% 10%;
+  }
+
+  &__search {
+    width: 100%;
+    margin-bottom: 44px;
+  }
+}

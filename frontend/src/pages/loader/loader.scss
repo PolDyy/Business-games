@@ -1,0 +1,28 @@
+@import "../../sass_library/library.scss";
+
+.loader {
+  height: 80vh;
+  overflow: hidden;
+  @extend %business_game_container;
+
+  &__preloader {
+    width: 50px;
+    height: 50px;
+    border: 8px solid rgba(66, 74, 157, .5);
+    border-radius: 50%;
+    border-right-color: rgba(66, 74, 157, 1);
+    animation: loader 1.3s linear infinite;
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    @extend %text_decoration;
+    color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@keyframes loader {
+  100% {
+    transform: rotate(360deg);
+  }
+}

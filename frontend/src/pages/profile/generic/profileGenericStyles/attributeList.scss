@@ -1,0 +1,6 @@
+@import "../../../../sass_library/library.scss";
+
+.attribute_list {
+  @extend %flex_column;
+  margin-bottom: 70px;
+}

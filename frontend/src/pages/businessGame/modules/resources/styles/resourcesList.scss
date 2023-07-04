@@ -1,0 +1,14 @@
+@import "../../../../../sass_library/library.scss";
+
+.resources_list {
+  width: calc(100% - 30px * 2);
+  padding: 30px;
+
+  &__short {
+    @extend %between_wrap;
+  }
+
+  &__length {
+    @extend %between_wrap;
+  }
+}

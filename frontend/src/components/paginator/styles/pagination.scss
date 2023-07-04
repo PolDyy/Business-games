@@ -1,0 +1,32 @@
+@import "../../../sass_library/library";
+
+.pagination {
+  @extend %flex_end;
+  align-items: baseline;
+
+  &__button {
+    @extend %text_decoration;
+    color: rgba(107, 83, 255, .6);
+    margin-right: 15px;
+
+    &:hover {
+      color: $purple_fc;
+      text-decoration: underline;
+    }
+  }
+
+  &__arrow {
+    background-image: url("../../../static/img/game/pagination_arrow.svg");
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+  }
+  &__arrow_left {
+    background-image: url("../../../static/img/game/pagination_arrow.svg");
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    margin-right: 15px;
+  }
+}

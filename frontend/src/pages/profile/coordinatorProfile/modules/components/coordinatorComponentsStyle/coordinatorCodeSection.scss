@@ -1,0 +1,42 @@
+@import "../../../../../../sass_library/library.scss";
+
+.coordinator_code_section {
+  @extend %between_column;
+  height: 80%;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.coordinator_code_section_fill {
+  @extend %between_column;
+  height: 150px;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .coordinator_code_section {
+    height: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .coordinator_code_section {
+    display: none;
+  }
+  .coordinator_code_section_fill {
+    display: none;
+  }
+}
+
+
+@media (min-width: 2000px) {
+  .coordinator_code_section {
+    margin-top: 80px;
+    height: 60%;
+    margin-bottom: 200px;
+  }
+  .coordinator_code_section_fill {
+    height: 250px;
+  }
+}

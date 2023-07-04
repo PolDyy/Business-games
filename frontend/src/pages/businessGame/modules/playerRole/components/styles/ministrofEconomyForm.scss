@@ -1,0 +1,9 @@
+@import "../../../../../../sass_library/library.scss";
+
+.minister_of_economy_form {
+  @extend %role_form;
+  &__btn {
+    width: 290px;
+    height: 60px;
+  }
+}

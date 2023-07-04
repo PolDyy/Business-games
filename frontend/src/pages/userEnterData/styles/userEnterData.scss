@@ -1,0 +1,11 @@
+@import "../../../sass_library/library.scss";
+
+.user_enter_data {
+  padding: 60px 80px;
+
+  &_btn {
+    margin: 0 auto;
+    width: 25%;
+    height: 66px;
+  }
+}

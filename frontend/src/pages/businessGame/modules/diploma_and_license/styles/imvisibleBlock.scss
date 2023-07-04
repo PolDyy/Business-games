@@ -1,0 +1,12 @@
+.invisible_block {
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  pointer-events: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.invisible_block:not(:last-child) {
+  margin-bottom: 0;
+}

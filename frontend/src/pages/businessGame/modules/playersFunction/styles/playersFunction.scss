@@ -1,0 +1,32 @@
+@import "../../../../../sass_library/library.scss";
+
+.players_function_container {
+  @extend %business_game_container;
+  margin-bottom: 60px;
+
+  .players_function {
+    width: 90%;
+
+    &__title {
+      @extend %text_decoration;
+      font-size: 25px;
+      color: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    &__list {
+      @extend %space_between;
+      height: 80px;
+
+      &_btn {
+        @media (max-width: 1410px) {
+          width: 300px;
+        }
+        @media (max-width: 1200px) {
+          width: 250px;
+        }
+      }
+    }
+  }
+}

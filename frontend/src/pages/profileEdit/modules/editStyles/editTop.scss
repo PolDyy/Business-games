@@ -1,0 +1,20 @@
+.edit_top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+
+.edit_completed {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 24px;
+  color: rgba(66, 74, 157, 1);
+;
+}
+
+@media (max-width: 500px) {
+  .edit_top {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

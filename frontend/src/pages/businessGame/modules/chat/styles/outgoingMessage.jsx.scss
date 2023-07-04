@@ -1,0 +1,19 @@
+@import "../../../../../sass_library/library";
+
+.outgoing_message {
+  max-width: 460px;
+
+
+  &__container {
+    @extend %chat_message_container;
+
+    &_message {
+      @extend %chat_message_text;
+      margin-right: 20px;
+    }
+
+    &_time {
+      @extend %chat_message_time;
+    }
+  }
+}

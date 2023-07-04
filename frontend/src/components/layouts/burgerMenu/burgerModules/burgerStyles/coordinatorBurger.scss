@@ -1,0 +1,49 @@
+.burger_container {
+  height: 100%;
+  background: #FFFFFF;
+  width: 35%;
+  z-index: 150;
+}
+
+.burger_modal_content {
+}
+
+.burger_active {
+  height: 100px;
+  padding-left: 14%;
+  margin-bottom: 60px;
+}
+
+.burger_container_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+}
+
+.button_create_game_container {
+  margin: 0 auto 50px;
+  width: 80%;
+  height: 60px;
+}
+
+@media (max-width: 1000px) {
+  .burger_container {
+    width: 50%;
+  }
+  .burger_active {
+    padding-left: 10%;
+  }
+}
+
+@media (max-width: 850px) {
+  .burger_container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  .burger_container{
+    display: none;
+  }
+}

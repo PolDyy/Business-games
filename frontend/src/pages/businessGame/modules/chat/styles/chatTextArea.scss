@@ -1,0 +1,36 @@
+@import "../../../../../sass_library/library";
+
+.chat_text_area {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 20px 20px;
+
+  &__text {
+    @extend %text_decoration;
+    @extend %textarea_reset;
+    font-size: 15px;
+    height: 19px;
+    padding: 14px 30px;
+    width: 70%;
+    outline: none;
+    border: none;
+    color: rgba(0, 0, 0, 0.8);
+    word-wrap: break-word;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  &__btn_send {
+    position: absolute;
+    background-image: url("../../../../../static/img/chat/send.svg");
+    right: 20px;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+
+.chat_text_area__text::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,7 @@
+@import "../../../sass_library/library.scss";
+
+.user_results_table__container {
+  @extend %space_between;
+  padding: 33px 0;
+  border-bottom: 1px solid rgba(107, 83, 255, 0.4);
+}

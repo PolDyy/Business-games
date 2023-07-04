@@ -1,0 +1,71 @@
+@import "../../../../../sass_library/library.scss";
+
+.offer {
+  @extend %align_center;
+  @extend %space_between;
+  background: $back_white;
+  border-radius: $border_radius;
+  padding: 27px 40px;
+  margin-bottom: 30px;
+
+  &_container {
+    &__title {
+      @extend %text_decoration;
+      color: $black_fc;
+      margin-bottom: 12px;
+      max-width: 300px;
+      height: 30px;
+      overflow: hidden;
+      word-break: break-all;
+      font-weight: 700;
+    }
+
+    &__subtitle {
+      display: flex;
+      @extend %text_decoration;
+      color: $black_fc;
+      font-size: 18px;
+      width: 250px;
+      height: 30px;
+      overflow: hidden;
+    }
+  }
+
+  &_info_container {
+    @extend %flex_row;
+    @extend %space_between;
+    width: 20%;
+
+
+    &__cost {
+      @extend %text_decoration;
+      color: $black_fc;
+      text-align: center;
+    }
+
+    &__count {
+      @extend %text_decoration;
+      color: $black_fc;
+      font-size: 18px;
+    }
+  }
+
+  &_button_container {
+
+    &__btn_offer_accept {
+      @extend %button_white;
+      min-width: 190px;
+      height: 42px;
+    }
+
+    &__btn_offer_reject {
+      @extend %button_purple;
+      min-width: 190px;
+      height: 42px;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+
+}

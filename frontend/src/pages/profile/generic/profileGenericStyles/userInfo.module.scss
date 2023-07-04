@@ -1,0 +1,105 @@
+@import "../../../../sass_library/library";
+
+.user_info {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 116px;
+}
+
+
+.user_name {
+  @extend %text_container;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 29px;
+
+  @media (max-width: 450px) {
+    max-width: 200px;
+    text-align: right;
+  }
+
+}
+
+.user_link_email {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  @media (max-width: 360px) {
+    text-align: left;
+  }
+
+}
+
+.user_link_edit {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  @media (max-width: 360px) {
+    text-align: right;
+  }
+}
+
+.user_info__color_black {
+  color: black;
+}
+
+.user_info__color_purple {
+  color: $purple_fc;
+}
+
+.user_info__color_white {
+  color: $white_fc;
+}
+
+@media (max-width: 700px) {
+  .user_info {
+    width: 250px;
+    height: 20%;
+    margin-top: 50px;
+  }
+  .user_name {
+    font-size: 25px;
+  }
+  .user_link_email {
+    font-size: 16px;
+  }
+  .user_link_edit {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .user_info {
+    height: 200px;
+    margin-top: 50px;
+  }
+  .user_name {
+    font-size: 50px;
+    line-height: 100%;
+  }
+  .user_link_email {
+    font-size: 40px;
+  }
+  .user_link_edit {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .user_name {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  .user_link_email {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  .user_link_edit {
+    text-align: right;
+  }
+}

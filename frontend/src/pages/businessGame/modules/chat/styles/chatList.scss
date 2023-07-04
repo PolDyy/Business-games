@@ -1,0 +1,28 @@
+
+
+.chat_list {
+  overflow: auto;
+  height: 75vh;
+  width: 400px;
+  padding-right: 10px;
+  &__container {
+    height: 69px;
+  }
+}
+
+.chat_list::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px;
+}
+
+.chat_list::-webkit-scrollbar-thumb {
+    background: rgba(66, 74, 157, 1);
+    border-radius: 5px;
+}
+
+
+.horizontal-line  {
+  border: 3px solid rgba(66, 74, 157, 0.5);
+  border-radius: 20px;
+  margin-bottom: 10px;
+}

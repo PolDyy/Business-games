@@ -1,0 +1,33 @@
+@import "../../../../../sass_library/library";
+
+.chat {
+  @extend %space_between;
+  padding: 30px 30px;
+  min-height: 100%;
+
+  &__left {
+    width: 35%;
+
+    &_search {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__right {
+    width: 55%;
+    height: 660px;
+    overflow: auto;
+
+    &_textarea {
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column;
+    }
+  }
+
+  &__enter_message {
+    position: fixed;
+    bottom: 50px;
+    width: 52.5%;
+  }
+}

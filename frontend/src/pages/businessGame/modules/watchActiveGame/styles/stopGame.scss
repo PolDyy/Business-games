@@ -1,0 +1,7 @@
+@import "../../../../../sass_library/library";
+
+.stop_game {
+  @extend %text_decoration;
+  text-decoration-line: underline;
+  color: rgba(236, 115, 115, 1);
+}

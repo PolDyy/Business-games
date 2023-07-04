@@ -1,0 +1,36 @@
+@import "../../../../../sass_library/library.scss";
+
+.create_offer_credit {
+  @extend %space_between;
+  padding: 30px 30px;
+  margin-bottom: 40px;
+
+  &__left {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    &_big_size {
+      width: 260px;
+      height: 47px;
+    }
+
+    &_little_size {
+      width: 160px;
+      height: 47px;
+    }
+
+    &_middle_size {
+      height: 47px;
+      width: 220px;
+    }
+  }
+
+  &__right {
+
+    &_btn {
+      height: 42px;
+      width: 244px;
+    }
+  }
+}

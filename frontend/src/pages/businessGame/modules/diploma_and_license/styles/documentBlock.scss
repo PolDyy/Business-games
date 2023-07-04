@@ -1,0 +1,40 @@
+@import "../../../../../sass_library/library.scss";
+
+.document_block {
+  @extend %business_game_container;
+  width: 242px;
+  height: 130px;
+  background: #FFFFFF;
+  margin-bottom: 30px;
+  border-radius: $border_radius;
+
+  .document_block_title {
+    height: 69px;
+    width: 190px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 12px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+
+  .document_timing {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: rgba(2, 199, 105, 1);
+    overflow: hidden;
+    align-items: center;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+}
+
+
+.document_block:not(:last-child) {
+  margin-bottom: 30px;
+}

@@ -1,0 +1,6 @@
+@import "../../../../../sass_library/library";
+
+.watch_active_game_table {
+  @extend %table_container;
+  margin-bottom: 60px;
+}
